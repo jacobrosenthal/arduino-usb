@@ -1,0 +1,33 @@
+{
+  "name": "arduino-usb",
+  "version": "0.1.0",
+  "description": "Irken plugin exposing arduino board via usb",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -cv -m 60000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobrosenthal/arduino-usb"
+  },
+  "keywords": [
+    "irken"
+  ],
+  "author": "Jacob Rosenthal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobrosenthal/arduino-usb/issues"
+  },
+  "homepage": "https://github.com/jacobrosenthal/arduino-usb",
+  "devDependencies": {
+    "code": "^1.3.0",
+    "lab": "^5.4.0",
+    "usb": "^1.0.5"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "intel-hex": "^0.1.1",
+    "usbtinyisp": "jacobrosenthal/usbtinyisp",
+    "when": "^3.7.2"
+  }
+}
