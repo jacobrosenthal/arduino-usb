@@ -25,7 +25,6 @@
     "usb": "^1.0.5"
   },
   "dependencies": {
-    "async": "^0.9.0",
     "intel-hex": "^0.1.1",
     "usbtinyisp": "jacobrosenthal/usbtinyisp",
     "when": "^3.7.2"
