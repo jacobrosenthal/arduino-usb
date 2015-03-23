@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "intel-hex": "^0.1.1",
+    "rest": "^1.3.0",
     "usbtinyisp": "jacobrosenthal/usbtinyisp#async",
     "when": "^3.7.2"
   }
