@@ -6,7 +6,7 @@ function arduinousb(app, opts, cb){
 
   var namespace = opts.namespace || 'arduinousb';
 
-  var board = new Board();
+  var board = new Board(app.log);
 
   app.expose(namespace, board);
 
